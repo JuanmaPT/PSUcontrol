@@ -1,0 +1,16 @@
+﻿  PSUcontrol.cpp
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(25): warning C4005: '_WIN32_WINNT': redefinición de macro
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\sdkddkver.h(215): note: vea la definición anterior de '_WIN32_WINNT'
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(94): warning C4101: 'retCount': variable local sin referencia
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(93): warning C4101: 'intfDesc': variable local sin referencia
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(95): warning C4101: 'flist': variable local sin referencia
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(100): warning C4101: 'outout': variable local sin referencia
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(97): warning C4101: 'SelectedDevice': variable local sin referencia
+PSUcontrol.obj : error LNK2019: símbolo externo _viOpenDefaultRM@4 sin resolver al que se hace referencia en la función _main
+PSUcontrol.obj : error LNK2019: símbolo externo _viOpen@20 sin resolver al que se hace referencia en la función _main
+PSUcontrol.obj : error LNK2019: símbolo externo _viClose@4 sin resolver al que se hace referencia en la función _main
+PSUcontrol.obj : error LNK2019: símbolo externo _viPrintf sin resolver al que se hace referencia en la función "char * __cdecl ObtainCurrent(unsigned long)" (?ObtainCurrent@@YAPADK@Z)
+PSUcontrol.obj : error LNK2019: símbolo externo _viScanf sin resolver al que se hace referencia en la función "char * __cdecl ObtainCurrent(unsigned long)" (?ObtainCurrent@@YAPADK@Z)
+visa32.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
+visa64.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
+C:\Users\GenericoBT\source\repos\PSUcontrol\Debug\PSUcontrol.exe : fatal error LNK1120: 5 externos sin resolver

@@ -1,0 +1,9 @@
+﻿  PSUcontrol.cpp
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(25): warning C4005: '_WIN32_WINNT': redefinición de macro
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\sdkddkver.h(215): note: vea la definición anterior de '_WIN32_WINNT'
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(111): warning C4101: 'retCount': variable local sin referencia
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(110): warning C4101: 'intfDesc': variable local sin referencia
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(112): warning C4101: 'flist': variable local sin referencia
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(117): warning C4101: 'outout': variable local sin referencia
+c:\users\genericobt\source\repos\psucontrol\psucontrol\psucontrol.cpp(114): warning C4101: 'SelectedDevice': variable local sin referencia
+  PSUcontrol.vcxproj -> C:\Users\GenericoBT\source\repos\PSUcontrol\x64\Debug\PSUcontrol.exe
