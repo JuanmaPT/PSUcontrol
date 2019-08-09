@@ -1,4 +1,4 @@
-# PSUcontrol
+# PSUcontrol :new_moon_with_face:
 Simple controls for Keysight Power Supply using NI-VISA drivers throght GPIB connection.
 Originally developed for Agilent 66311B at Dekra Testing and Certification facilities.
 
