@@ -1,0 +1,20 @@
+Instrucciones para compilación(Visual Studio 2017):
+-Crear nuevo proyecto(Aplicacion de consola de Windows Visual C++)
+-Sustituir en el .cpp generado el código del PSUControl.cpp
+-Incluir librerías y header de VISA:
+	-Proyecto >> Propiedades de *nombre de proyecto* >>
+	 >> Desplegar C/C++ >> General >> Directorios de inclusión adicionales >>
+	 >> Introducir C:\Program Files\IVI Foundation\VISA\Win64\Include (O en
+	    su defecto el path de la carpeta IVI Foundation incluida)
+
+	-Proyecto >> Propiedades de *nombre de proyecto* >>
+	 >> Desplegar Vinculador >> General >> Directorios de bibliotecas adicionales >>
+	 >> Introducir C:\Program Files\IVI Foundation\VISA\Win64\Lib_x64\msc
+
+	-Proyecto >> Propiedades de *nombre de proyecto* >>
+	 >> Desplegar Vinculador >> Entrada >> Dependencias adicionales >>
+	 >> Introducir  visa32.lib
+			visa64.lib
+	
+	-En la carpeta del proyecto "Archivos de encabezado" pegar visa.h
+	
