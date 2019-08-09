@@ -5,3 +5,8 @@ Originally developed for Agilent 66311B at Dekra Testing and Certification facil
 - Requires GPIB connection
 - The power supply GPIB addres must agree the direction assigned in the Keysight Connection Expert software (more details in [Config](PSU_config_guide.txt))
 - Tested using Visual Studio 2017 (compiler set-up guide included in InstruccionesdeCompilación.txt)
+
+Tasks:
+- [x] Include current control
+- [ ] Design and implent GUI
+- [ ] Make COMport work with VISA drivers
