@@ -3,5 +3,5 @@ Simple controls for Keysight Power Supply using NI-VISA drivers throght GPIB con
 Originally developed for Agilent 66311B at Dekra Testing and Certification facilities.
 
 -Requires GPIB connection
--The power supply GPIB addres must agree the direction assigned in the Keysight Connection Expert software (more details in [Config](PSUcontrol/CONTRIBUTING.md))
+-The power supply GPIB addres must agree the direction assigned in the Keysight Connection Expert software (more details in [Config](PSUcontrol/blob/master/PSU_config_guide.txt))
 -Tested using Visual Studio 2017 (compiler set-up guide included in InstruccionesdeCompilación.txt)
